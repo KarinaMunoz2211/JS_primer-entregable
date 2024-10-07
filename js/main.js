@@ -2,9 +2,9 @@
 // La idea de este "programa" es que al escribir uno de los títulos preestablecidos, se retorne una breve "descripción" tipo muy resumida.
 
 
-//Array con títulos de Libros de Stephen King
 
-let books = ["It", "El Instituto","El Visitante","La Sangre Manda", "El Resplandor"];
+let books = ["It", "El Instituto","El Visitante","La Sangre Manda", "El Resplandor"]
+
 let chooseABook;
 
 do{
@@ -49,7 +49,7 @@ do{
 
     case "E":
       if (books="E"){
-      alert ("El Resplandor Una familia va a un hotel a cuidarlo durante el invierno, pero el padre de familia se vuelve loco");
+      alert ("El Resplandor = Una familia va a un hotel a cuidarlo durante el invierno, pero el padre de familia se vuelve loco");
       
     }else {
       console.log(books);
